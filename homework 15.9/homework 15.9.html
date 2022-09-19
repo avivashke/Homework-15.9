@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>ex1</h1>
+<script>
+   x = parseInt(prompt ("Enter any number:"))
+   y = parseInt(prompt ("Enter any other number:"))
+   z = parseInt(prompt ("Last one:"))
+   document.write('Sum = ', x+y+z,)
+   document.write('</br>')
+   document.write('Avarage = ', (x+y+z)/3)
+  
+   
+</script> 
+
+<br><br><hr><br><br>
+
+<h1>ex2</h1>
+
+<script>
+   x = parseInt(prompt ("Width of rectangle: "))
+   y = parseInt(prompt ("Height of rectangle: "))
+   document.write("Surface = ", (x*y),'<br/>')
+   document.write("Scope = ", ((x*2)+(y*2)))
+</script>
+
+<br><br><hr><br><br>
+
+<h1>ex4</h1>
+<script>
+    t = parseInt(prompt("Movie length in minutes: "))
+    document.write(parseInt(t / 60)),document.write(":", t % 60)
+  
+</script>
+<br><br><hr><br><br>
+<h1>ex5</h1>
+<script>
+   r = parseInt(prompt("Input a 4 digit number: "));
+   last = r %10;
+   document.write(last)
+</script>
+<br><br><hr><br><br>
+<h1>ex6</h1>
+<script>
+    e = parseInt(prompt("Input a 4 digit number and get the 2nd digit form the right: "))
+iin = Math.floor((e / 10) % 10); 
+document.write(iin)
+</script>
+<br><br><hr><br><br>
+<h1>ex7</h1>
+<script>
+    g1 = parseInt(prompt("Enter a 3 digit number: "))
+    st = Math.floor((g1 / 100) % 10);
+    document.write(st)
+</script>
+<br><br><hr><br><br>
+<h1>ex8</h1>
+<script>
+    gg = parseInt(prompt("enter a 2 digit number"))
+var value = gg,
+    sum = 0;
+
+while (value) {
+    sum += value % 10;
+    value = Math.floor(value / 10);
+}
+
+document.write(sum)
+
+</script>
+</body>
